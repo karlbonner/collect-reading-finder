@@ -7,7 +7,7 @@
     <title>Closest Reading Finder</title>
 </head>
 <body>
-    <h1>Closest Reading</h1>
+    <h1></h1>
     <p id="closest-reading">Loading...</p>
 
     <script>
@@ -726,7 +726,7 @@
         const readingElement = document.getElementById('closest-reading');
         
         if (closest) {
-            readingElement.textContent = `The closest reading is: "${closest.Collect}" on ${closest.Date}.`; // Match the 'Collect' property
+            readingElement.textContent = `${closest.Collect}\`; // Match the 'Collect' property
         } else {
             readingElement.textContent = 'No readings found.';
         }
